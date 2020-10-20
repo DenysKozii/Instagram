@@ -16,12 +16,12 @@ Build generate following artifacts:
 
 Configuration: to set up your application you need to edit application.properties file
 Following properties are mandatory: 
--imageServer.host - default value [http://interview.agileengine.com] - Original image server
--imageServer.authUrl - default value [/auth] - relative path to authorisation service
--imageServer.imagesUrl - default value [/images] - relative path to image API
--imageServer.apiKey  - default value [23567b218376f79d9415] - apiKey
--image.cacheFolder - default value [F:/Projects/Instagram/target/images] - path to local folder where images caching
--refreshTimeMilliseconds - default value [50000] - cache refresh time in milliseconds
+* imageServer.host - default value [http://interview.agileengine.com] - Original image server
+* imageServer.authUrl - default value [/auth] - relative path to authorisation service
+* imageServer.imagesUrl - default value [/images] - relative path to image API
+* imageServer.apiKey  - default value [23567b218376f79d9415] - apiKey
+* image.cacheFolder - default value [F:/Projects/Instagram/target/images] - path to local folder where images caching
+* refreshTimeMilliseconds - default value [50000] - cache refresh time in milliseconds
 
 
 To run execute 
